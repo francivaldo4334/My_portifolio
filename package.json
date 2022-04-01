@@ -1,0 +1,26 @@
+{
+  "name": "my_portifolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francivaldo4334/My_portifolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francivaldo4334/My_portifolio/issues"
+  },
+  "homepage": "https://github.com/francivaldo4334/My_portifolio#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "next": "^12.1.3",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
