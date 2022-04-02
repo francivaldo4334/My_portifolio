@@ -27,7 +27,7 @@ export default function Home() {
                     <p>(86)981266564</p>
                     <img src="./images/ic_email.png"/>
                     <p>frncvldreisdev@gmail.com</p>
-                    <img src="./images/"/>
+                    <img src="./images/ic_local.png"/>
                     <p>luis_correia,piaui,brasil</p>
                 </div>
                 <h1>Abilidades</h1>
