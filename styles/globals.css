@@ -1,0 +1,13 @@
+body{
+    background-color: #262626;
+}
+h1{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+p{
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 15px;
+}
