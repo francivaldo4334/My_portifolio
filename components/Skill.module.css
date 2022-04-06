@@ -1,0 +1,16 @@
+.div_skill{
+    width: 8.75em;
+    height: 12.375em;
+    background-color: #262626;
+    margin: 0 auto 0  auto;
+}
+.div_skill img{
+    width: 2.375em;
+    height: 2.375em;
+    margin: 2.4375em 0 0 3.1875em;
+}
+.div_skill h4{
+    text-align: center;
+    width: 5.75em;
+    margin: 2.3125em auto 0 auto;
+}

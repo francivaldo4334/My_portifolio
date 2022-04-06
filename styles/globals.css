@@ -1,13 +1,28 @@
-body{
-    background-color: #262626;
-}
 h1{
     font-weight: bold;
     color: white;
-    font-size: 20px;
+    font-size: 36px;
 }
-p{
+h2{
     font-weight: bold;
-    color: rgba(255, 255, 255, 0.623);
-    font-size: 15px;
+    color: white;
+    font-size: 21px;
+}
+h3{
+    font-weight: bold;
+    color: #D4D4D4;
+    font-size: 16px;
+}
+
+h4{
+    font-weight: bold;
+    color: #D4D4D4;
+    font-size: 13px;
+}
+body{
+    overflow-x: hidden;
+    background-color: #262626;
+}
+section{
+    background-color: #1C1C1C; 
 }
