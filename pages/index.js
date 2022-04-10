@@ -14,14 +14,14 @@ export default function Home() {
     <div>
          <div className={styles.menu}>
             <img className={styles.logo} src="./images/logo.png"/>
-                <div className={styles.menulist}style={{}}>
-                          <ul>
-                          <li><a href="#hero">Home</a></li>
-                            <li><a href='#about'>Sobre</a></li>
-                            <li><a href='#skills'>Abilidades</a></li>
-                            <li><a href='#more'>Mais</a></li>
-                          </ul>
-                  </div> 
+              <div className={styles.menulist}style={{}}>
+                      <ul>
+                      <li><a href="#hero">Home</a></li>
+                        <li><a href='#about'>Sobre</a></li>
+                        <li><a href='#skills'>Abilidades</a></li>
+                        <li><a href='#more'>Mais</a></li>
+                      </ul>
+              </div> 
          </div>
          <section style={{backgroundImage:"url('./images/background.png')"}} className={styles.hero_box} id="hero">
             <h1>
