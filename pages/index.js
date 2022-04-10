@@ -23,7 +23,7 @@ export default function Home() {
                           </ul>
                   </div> 
          </div>
-         <section style={{backgroundImage:"url('./images/background.png')"}} className={styles.hero_box} id="hero">
+         <section style={{backgroundImage:"url('./images/background.png')"}} className={styles.hero_box}>
             <h1>
             Francivaldo Costa
             </h1>
