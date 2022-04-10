@@ -14,10 +14,6 @@ export default function Home() {
     <div>
          <div className={styles.menu}>
             <img className={styles.logo} src="./images/logo.png"/>
-            <div>
-                <ItemLink src ="./images/ic_whatsapp.png" h3 = "(86)981266564"/>
-                <ItemLink src ="./images/ic_local.png" h3 = "luis_correia,piaui,brasil"/>
-                <img  src="./images/ic_menu.png"className={styles.btn_menu}/>
                 <div className={styles.menulist}style={{}}>
                           <ul>
                           <li><a href="#hero">Home</a></li>
@@ -26,7 +22,6 @@ export default function Home() {
                             <li><a href='#more'>Mais</a></li>
                           </ul>
                   </div> 
-            </div>
          </div>
          <section style={{backgroundImage:"url('./images/background.png')"}} className={styles.hero_box} id="hero">
             <h1>
@@ -73,9 +68,10 @@ export default function Home() {
             <h1>
               Mais informações:
             </h1>
-            <ItemLink src="./images/ic_email.png" h3 = "Email: frncvldreisdeveloper@gmail.com"/>
             <ItemLink src="./images/ic_playStore.png" h3 = "Link: https://play.google.com/store/apps/developer?id=Francivaldo" a="https://play.google.com/store/apps/developer?id=Francivaldo"/>
-            <ItemLink src="./images/ic_github.png" h3 = "Link: https://github.com/francivaldo4334" a="https://github.com/francivaldo4334"/>]
+            <ItemLink src="./images/ic_github.png" h3 = "Link: https://github.com/francivaldo4334" a="https://github.com/francivaldo4334"/>
+            <ItemLink src="./images/ic_email.png" h3 = "Email: frncvldreisdeveloper@gmail.com"/>
+            <ItemLink src ="./images/ic_whatsapp.png" h3 = "(86)981266564"/>
         </section>
     </div>
 

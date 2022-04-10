@@ -12,11 +12,6 @@
     padding: 0 7em 0 7em;
 
 }
-.menu > div{
-    display: flex;
-    align-items: center;
-    margin: 0 7em 0 auto;
-}
 
 .logo{
     width: 1.5em;
@@ -24,31 +19,20 @@
     padding:0.5em;
     border: 4px solid #FFFFFF;
 }
-.btn_menu {
-    width: 1.75em;
-    height: 1.75em;
-    margin-right: 7em;
-}
-
 .menulist {
-	background: #262626;
-	position: fixed;
+    position: fixed;
     width: 300px;
-    height: autos;
-    top:  58px;
-    left: 100%;
-    margin-left: -150px;
-    /* margin-top: -100%; */
+    height: 3.625em;
+    right: 7em;
+
 
 }
 .menulist ul {
     list-style: none;
-    float: left;
-    
+    display: flex;
 }
 .menulist li{
     position:relative;
-    border-right:1px solid #39a780;
 }
 .menulist li a{
     color:rgb(255, 255, 255);
@@ -63,7 +47,7 @@
 }
 /* HERO BOX */
 .hero_box{
-    background-size: 100% auto;
+    background-size: 100%;
     width: 100%;
     height: 35.8125em;
     margin-top: 3.1em;
@@ -114,8 +98,9 @@
 }
 /* MORE */
 .more{
+    display: block;
+    width: 100%;
     padding: 1em 7em 0 7em;
-    margin: auto 0 0 0;
 }
 .more div {
     margin-left: 5em;
