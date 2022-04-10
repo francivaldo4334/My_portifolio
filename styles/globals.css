@@ -20,9 +20,22 @@ h4{
     font-size: 13px;
 }
 body{
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
     background-color: #262626;
 }
 section{
     background-color: #1C1C1C; 
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #39a780;
+    border-radius: 30px;
 }
