@@ -13,7 +13,7 @@ export default function Home() {
   return  (
     <div>
          <div className={styles.menu}>
-            <img className={styles.logo} src="./images/logo.png"/>
+             <img className={styles.logo} src="./images/logo.png"/>
               <div className={styles.menulist}style={{}}>
                       <ul>
                       <li><a href="#hero">Inicio</a></li>
@@ -64,9 +64,6 @@ export default function Home() {
             </div>
         </section>
         <section className={styles.more} id="more">
-            <h1>
-              Mais informações:
-            </h1>
             <ItemLink src="./images/ic_playStore.png" h3 = "Link: https://play.google.com/store/apps/developer?id=Francivaldo" a="https://play.google.com/store/apps/developer?id=Francivaldo"/>
             <ItemLink src="./images/ic_github.png" h3 = "Link: https://github.com/francivaldo4334" a="https://github.com/francivaldo4334"/>
             <ItemLink src="./images/ic_email.png" h3 = "Email: frncvldreisdeveloper@gmail.com"/>
