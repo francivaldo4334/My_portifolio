@@ -1,0 +1,20 @@
+.d{
+    width: 15.4375em;
+    height:23.5625em;
+    background-color: #9AE2A9;
+    border-radius: 20px;
+    margin: 1em;
+    display: grid;
+    place-items: center;
+
+}
+.d img{
+    width: 4.0625em;
+    height: 4.0625em;
+}
+.d h4{
+    width:  10em;
+    height: 4.6875em;
+    font-size: 21px;
+    color: black;
+}

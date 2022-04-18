@@ -20,10 +20,10 @@ h4{
     font-size: 13px;
 }
 html{
-    padding: 0;
-    margin: 0;
+    scroll-snap-type: y mandatory;
 }
 body{
+    scroll-snap-type: y mandatory;
     display: grid;
     width: 100%;
     padding: 0;
@@ -32,6 +32,7 @@ body{
     background-color: #262626;
 }
 section{
+    scroll-snap-align: start;
     background-color: #1C1C1C; 
 }
 ::-webkit-scrollbar{
