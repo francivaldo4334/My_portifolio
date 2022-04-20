@@ -37,16 +37,14 @@
 }
 /* HERO BOX */
 .hero_box{
+    padding-top: 100px;
     background-color: #F2F2F2;
     width: 100%;
-    height: 34.5em;
-    margin-top: 3.625em;
-    padding-top: 7.25em;;
 }
-.hero_box > img {
+.hero_box div >  img {
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     width: 6.25em;
     height: 6.25em;
     border-radius: 100%;
@@ -54,17 +52,14 @@
 }
 .hero_box h1{
     display: block;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     width: 14.5em;
     color: #000;
     margin-top: 1.875em;
     text-align: center;
 }
 .hero_box h1 span{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     color: #000;
     font-size: 16px;
     font-weight: lighter;
@@ -72,7 +67,7 @@
     width: 10.625em;
     margin-top: 0.9375em;
 }
-.hero_box > div{
+.hero_box div div{
     margin-top: 1.875em;
     display: flex;
     align-items: center;
@@ -81,61 +76,96 @@
 /* ABOUT */
 .about{
     width: 100%;
-    height: 34.5em;
     background-color: #1C1C1C;
-    padding:  5.625em 5.3125em 5.625em 5.3125em;
 }
 .about > div{
+    padding-left: 5.3125em;
     display: flex;
-    margin-top: 1.875em;
+    align-items: center;
+    justify-content: center;
 }
 .about img{
     width: 8.125em;
     height: 8.125em;
     border-radius: 9px;
+    margin-top: 30px;
+    display: block;
+}
+.about h1{
+    padding: 100px 0px 0px 100px;
 }
 .about h3{
-    background-color: #262626;
-    border-radius: 26px;
     font-size: 26px;
     width: 40em;
-    margin: 0 auto 0 auto;
-    padding: 1.875em;
-    text-align: center;
+    padding-left: 30px;
 }
 /* SKILLS */
 .skills{
     width: 100%;
-    height: 34.5em;
     background-color: #262626;
-    padding:  5.625em 5.3125em 5.625em 5.3125em;
 }
 .skills > div {
     width: 100%;
-    display: flex;
-    align-items: center;
+    display: grid;
     justify-content: center;
-    margin-left: -5.3125em;
+    grid-template-columns: repeat(4, 0fr);
+    grid-template-rows: repeat(2, 0fr);
+}
+.skills h1{
+    padding: 100px 0px 30px 100px;
 }
 /* MORE */
 .more {
     width: 100%;
-    height:  38.125em;
-    padding-top:  5.625em;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .more h3{
-   
     font-size: 10px;
 }
-/* bottom */
-.bottom{
+@media (max-width:768px) {
+
+    /* about */
+    .about >div{
+        display: grid;
+        justify-content: start;
+    }
+    .about img {
+        padding-left: 40px;
+    }
+    .about >div h3{
+        width: 300px;   
+        text-align: start;
+    }
+    /* skills */
+    .skills >div{
+        display: grid;
+        padding-top: 30px;
+        grid-template-columns: repeat(2, 0fr);
+        grid-template-rows: repeat(4, 0fr);
+    }
+    .skills > h1{
+        padding: 0;
+        margin-left: 50px;
+        padding-top: 100px;
+        margin-bottom: 30px;
+    }
+    /* more */
+    .more{
+        display: grid;
+        padding-top: 100px;
+        grid-template-columns: repeat(2, 0fr);
+        grid-template-rows: repeat(2, 0fr);
+    }
+    .more div{
+        width: 12em;
+        height:23.5625em;
+    }
+}
+.div_bottom{
+    background-color: #000;
     display: flex;
-    width: 100%;
-    height: 5em;
     align-items: center;
     justify-content: center;
-    background-color: #000;
 }

@@ -13,8 +13,9 @@
     height: 4.0625em;
 }
 .d h4{
-    width:  10em;
+    text-align: center;
+    width: auto;
     height: 4.6875em;
-    font-size: 21px;
+    font-size: 16px;
     color: black;
 }

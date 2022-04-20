@@ -15,7 +15,8 @@ export default function Home() {
               </ul>
          </div>
          <section className={styles.hero_box} id="hero">
-            <img src="./images/image_perfil.jpg"/>
+           <div>
+           <img src="./images/image_perfil.jpg"/>
             <h1>Francivaldo Costa Reis<p/><span>desenvolvedor de software</span></h1>
             <div>
               <Icon href="https://www.instagram.com/frncvldreis/" src="./images/ic_instagram.svg"/>
@@ -23,6 +24,7 @@ export default function Home() {
               <Icon href="https://www.linkedin.com/feed/?trk=seo-authwall-base_google-one-tap-submit" src="./images/ic_linkedin.svg"/>
               <Icon href="https://www.facebook.com/francivaldo.costa.758399" src="./images/ic_facebook.svg"/>
             </div>
+           </div>
         </section>
         <section className={styles.about} id="about">
                 <h1>
@@ -39,18 +41,14 @@ export default function Home() {
             Habilidades
             </h1>
             <div>
-              <Skill src ="./images/ic_java.png" text = "Linguagem de programação Java"/>
-              <Skill src ="./images/ic_android.png" text = "Criação de aplicativos androide"/>
-              <Skill src ="./images/ic_game.png" text = "Criação de jogos para celulares"/>
-              <Skill src ="./images/ic_firebase.png" text = "Plataforma Firebase"/>
-              <Skill src ="./images/ic_json.png" text = "Documentos Json"/>
-            </div>
-            <div>
-            <Skill src ="./images/ic_android-studio.png" text = "Experiencia com Android Studio"/>
-              <Skill src ="./images/ic_design_1.svg" text = "UX/UI design"/>
-              <Skill src ="./images/ic_javascript.png" text = "Linguagem de programação javaScript"/>
-              <Skill src ="./images/ic_nodejs.png" text = "Plataforma Node-js"/>
-              <Skill src ="./images/ic_nextjs.png" text = "framework Next-js"/>
+              <Skill src ="./images/ic_java.svg" text = "Linguagem de programação Java."/>
+              <Skill src ="./images/ic_android.svg" text = "Criação de aplicativos androide."/>
+              <Skill src ="./images/ic_game.svg" text = "Criação de jogos para celulares."/>
+              <Skill src ="./images/ic_firebase.svg" text = "Plataforma Firebase."/>
+              <Skill src ="./images/ic_json.svg" text = "Documentos Json."/>
+              <Skill src ="./images/ic_android_studio.svg" text = "Experiencia com Android Studio."/>
+              <Skill src ="./images/ic_design_1.svg" text = "UX/UI design."/>
+              <Skill src ="./images/ic_site.svg" text = "Desenvolvimento de sites."/>
             </div>
         </section>
         <section className={styles.more} id="more">
@@ -58,12 +56,12 @@ export default function Home() {
             <ItemServ src ="./images/ic_playstore.svg" text = "postagem de aplicativos na play store"/>
             <ItemServ src ="./images/ic_design.svg" text = "design de aplicativos,sites e design grafico"/>
             <ItemServ src ="./images/ic_marketing.svg" text = "(EM BREVE)serviço de markenting digital em instagram,facebook e whatsapp"/>
+            
         </section>
-        <div className={styles.bottom}>
-              <ItemLink src="./images/ic_playStore.png" h3 = "Link: https://play.google.com/store/apps/developer?id=Francivaldo" a="https://play.google.com/store/apps/developer?id=Francivaldo"/>
-              <ItemLink src="./images/ic_email.png" h3 = "Email: frncvldreisdeveloper@gmail.com"/>
+        <div className={styles.div_bottom}>
+          <ItemLink a="https://play.google.com/store/apps/developer?id=Francivaldo" src="./images/ic_playstore_1.svg" h3="Meus projetos na play-store." />
+          <ItemLink a="https://goo.gl/maps/UTacLqQqo5DTnbhC8" src="./images/ic_local.svg" h3="Brasil,Luis Correia-PI,n 1850" />
         </div>
     </div>
-
   )
 }

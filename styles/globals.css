@@ -2,6 +2,7 @@ h1{
     font-weight: bold;
     color: white;
     font-size: 36px;
+    margin: 0;
 }
 h2{
     font-weight: bold;
@@ -19,30 +20,33 @@ h4{
     color: #D4D4D4;
     font-size: 13px;
 }
-html{
-    scroll-snap-type: y mandatory;
-}
 body{
-    scroll-snap-type: y mandatory;
-    display: grid;
     width: 100%;
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
-    background-color: #262626;
+    padding-top: 3.625em;
 }
 section{
-    scroll-snap-align: start;
     background-color: #1C1C1C; 
+    height: 40em;
 }
 ::-webkit-scrollbar{
     width: 10px;
 }
 ::-webkit-scrollbar-track{
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #39a780;
-    border-radius: 30px;
+    border-radius: 10px;
+}
+
+@media (max-width:768px) {
+    body{
+        display: grid;
+    }
+    section{
+        height: 1200px;
+    }
 }
