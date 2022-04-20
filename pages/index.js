@@ -19,7 +19,7 @@ export default function Home() {
            <img src="./images/image_perfil.jpg"/>
             <h1>Francivaldo Costa Reis<p/><span>desenvolvedor de software</span></h1>
             <div>
-              <Icon href="https://www.instagram.com/frncvldreis/" src="./images/ic_instagram.svg"/>
+              <Icon href="https://www.instagram.com/francivaldoprogramador/" src="./images/ic_instagram.svg"/>
               <Icon href="https://wa.me/qr/CKPNDVS7VS2PK1" src="./images/ic_whatsapp.svg"/>
               <Icon href="https://www.linkedin.com/feed/?trk=seo-authwall-base_google-one-tap-submit" src="./images/ic_linkedin.svg"/>
               <Icon href="https://www.facebook.com/francivaldo.costa.758399" src="./images/ic_facebook.svg"/>
