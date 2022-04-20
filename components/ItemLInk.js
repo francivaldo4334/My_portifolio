@@ -5,7 +5,7 @@ function Item(props){
         <div className={styles.item}>
             <img src={props.src}/>
             <a href={props.a}>
-                <h3>{props.h3}</h3>
+                <h4>{props.h3}</h4>
             </a>
         </div>
     )

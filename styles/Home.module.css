@@ -139,6 +139,9 @@
         text-align: start;
     }
     /* skills */
+    .skills{
+        height: 1200px;
+    }
     .skills >div{
         display: grid;
         padding-top: 30px;
