@@ -41,6 +41,10 @@ section{
     background-color: #39a780;
     border-radius: 10px;
 }
+button {
+
+    border-style: none;
+}
 
 @media (max-width:768px) {
     body{

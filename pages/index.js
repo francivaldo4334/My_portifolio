@@ -3,6 +3,15 @@ import ItemLink from '../components/ItemLInk'
 import Skill from '../components/Skill'
 import Icon from '../components/Icon'
 import ItemServ from '../components/ItemServ'
+function myFunction() {
+  /* Get the text field */
+  var copyText = "5586981266564";
+  navigator.clipboard.writeText(copyText);
+  console.log("hellow");
+
+  /* Alert the copied text */
+  alert("Numero copiado: " + copyText);
+}
 export default function Home() {
   return  (
     <div>
@@ -19,8 +28,11 @@ export default function Home() {
            <img src="./images/image_perfil.jpg"/>
             <h1>Francivaldo Costa Reis<p/><span>desenvolvedor de software</span></h1>
             <div>
-              <Icon href="https://www.instagram.com/francivaldoprogramador/" src="./images/ic_instagram.svg"/>
-              <Icon href="https://wa.me/qr/CKPNDVS7VS2PK1" src="./images/ic_whatsapp.svg"/>
+              <Icon href="https://www.instagram.com/francivaldo.programador" src="./images/ic_instagram.svg"/>
+              <button  onClick={myFunction}>
+              <Icon src="./images/ic_whatsapp.svg"/>
+              </button>
+            
               <Icon href="https://www.linkedin.com/feed/?trk=seo-authwall-base_google-one-tap-submit" src="./images/ic_linkedin.svg"/>
               <Icon href="https://www.facebook.com/francivaldo.costa.758399" src="./images/ic_facebook.svg"/>
             </div>
